@@ -1,3 +1,8 @@
+<!-- Задание 1
+Сделать форму отправки на сайт Амазона запроса get, который должен вернуть результаты поиска по ключевому слову "iphone" (или любое другое в принципе).
+ -->
+
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -6,6 +11,13 @@
     <title>Document</title>
 </head>
 <body>
-    
+    <form action="https://www.amazon.de/s" method="get">
+        <label for="s">Что Вы ищете на Амазона:</label>
+        <input type="text" name="k" id="s" placeholder="Ваш запрос">
+        <input type="submit" value="Поиск">
+
+
+    </form>
+
 </body>
 </html>
