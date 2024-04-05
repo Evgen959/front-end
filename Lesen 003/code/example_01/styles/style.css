@@ -1,0 +1,99 @@
+.vialet-style {
+    color: blueviolet;
+    font-size: 50px;
+}
+#four {
+    color: bisque;
+}
+.vialet-style span{
+    color: yellow;
+}
+
+.vialet-style + .blue-style{
+    background-color: red;
+}
+
+ul li:last-child {
+    color: red;
+}
+
+a:hover {
+    color: green;
+}
+
+.fontsize25 {
+    font-size: 50px;
+}
+
+.vialet-style.fontsize25 {
+    background-color: brown;
+}
+
+.experimets {
+    font-size: 20px !important;
+    font-weight: 400;
+    font-style: italic;
+    text-decoration: underline;
+    text-transform: uppercase;
+    color: rgb(4, 92, 186);
+    background-color: gray;
+    width: 300px;
+    height: 300px;
+    overflow: hidden;
+
+}
+
+.experimets {
+    font-size: 50px; /* этот имеет преоритет и перечеркивает предыдущий */
+}
+
+
+.experimets1 {    
+    background-color: aqua;
+    width: 100px;
+    height: 100px;
+    text-align: center;
+}
+
+.experimets2 {
+    background-color: rgb(255, 0, 51);
+    width: 100px;
+    height: 100px;
+    text-align: center;
+}
+
+.experimets3 {
+    background-color: rgb(85, 255, 0);
+    width: 100px;
+    height: 100px;
+    text-align: center;
+}
+
+.ex1 {
+    background-color: chocolate;    
+}
+
+.ex2 {
+    background-color: crimson;   
+}
+/* background: Это свойство CSS, которое позволяет задать не только цвет фона элемента, но и другие его характеристики, такие как изображение, повторение изображения, расположение, прозрачность и т. д. С помощью свойства "background" вы можете задать цвет фона (через "background-color"), изображение фона, его расположение и многое другое. */
+/* background-color: Это подсвойство свойства "background", которое применяется только к заданию цвета фона элемента. Оно используется, когда вам нужно только установить цвет фона и не требуется настройка других характеристик фона, таких как изображение, его повторение или позиционирование. */
+.ex3 {
+    background-color: green;
+    /* border-style: solid;
+    border-color: firebrick;
+    border-width: 5px; */
+    border: solid coral 5px;   
+}
+
+/* .ex1, .ex2, .ex3 {
+    width: 100px;
+    height: 100px;
+    text-align: center;
+} */
+
+.ex {
+    width: 100px;
+    height: 100px;
+    text-align: center;
+}
