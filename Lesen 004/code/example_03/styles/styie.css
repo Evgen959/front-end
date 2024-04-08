@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.styie1 {
+    background-color: rgb(128, 0, 0);
+    width: 100px;
+    height: 100px;
+}
+
+
+.styie2 {
+    margin-left: 100px;
+   
+    
+}
+.styie3 {
+    background-color: aqua;
+    margin-left: 200px;
+    height: calc(100vh - 200px);
+      
+}

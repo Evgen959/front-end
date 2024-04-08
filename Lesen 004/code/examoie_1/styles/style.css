@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+.box {
+    overflow: hidden;
+    box-sizing: border-box;
+    width: 200px; 
+    height: 200px; 
+    background-color: brown;
+    margin-top: 50px;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin: 50px 50px 50px 50px; /*top right bottom left*/
+    margin: 50px 50px;/* 1=top=bottom, 2=right=left*/
+    margin: 50px 50px 50px; /* 1=top,  2=right=left, 3=bottom*/
+    border: 10px solid blueviolet;
+    padding: 20px;
+}
+.ciocle {
+    border-radius: 50%;
+}
+.double {
+    width: 400px;
+    height: 200px;
+    background-color: aquamarine;
+}
+.double div:first-child {
+    width: 200px;
+    height: 200px;
+    background-color: bisque;
+    border: 5px solid blueviolet;
+    box-sizing: border-box;
+}
+
+.fortext {
+    height: 200px;
+    background-color: darkorange;
+    text-align: center;
+    
+
+}
+
+span {
+    /* background-color: darkcyan; */
+    font-size: 30px;
+    vertical-align: middle;
+    line-height: 100px;
+    
+}
+
