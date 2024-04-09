@@ -1,0 +1,22 @@
+header {
+    margin: 30px auto;
+    height: 400px;
+    width: 300px;    
+    /* background-color: lightseagreen; */
+    background: linear-gradient(white, lightseagreen);
+    /* background: radial-gradient(white, lightseagreen); */
+    /* background: conic-gradient(white, lightseagreen); */
+
+    border: 2px solid black;
+    border-radius: 5px;
+    position: relative;
+}
+div {
+    width: 40px;
+    background-color: gold;
+    font-size: 25px;
+    position: absolute;
+    top: 2px;
+    right: 2px;
+
+}

@@ -2,21 +2,23 @@
     margin: 0;
     padding: 0;
     text-align:center;
-    vertical-align: middle;
-    line-height: 150px;    
+    
+    /*      */
     font-size: 24px;
-    overflow: hidden;
+    /* overflow: hidden; */
 
 }
 .box1 {
     background-color: rgb(8, 108, 108);
+    vertical-align: middle;
     height: 150px;
+    line-height: 150px;
 
 }
 main {
-     /* padding-top: 10%;  */
     background-color: chocolate;
-    min-height: calc(100vh - 300px); 
+    min-height: calc(100vh - 300px);
+    /*line-height: calc(100vh - 300px); расположение надписи  */
     margin: 10px 0px;
     
 }
