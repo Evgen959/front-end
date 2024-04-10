@@ -1,0 +1,21 @@
+.b1 {
+    min-height: 100vh;
+    border: 2px solid black;
+    /* background-image: url(https://murmandecor.ru/upload/resize_cache/iblock/b94/2o07rxjggn26jf3jnlhlm46bj0aeiogv/400_400_140cd750bba9870f18aada2478b24840a/df8debf8_3a72_11e9_97c1_e03f4952c65a_3d67e648_52b8_11ed_9c43_005056893620.jpg);
+    background-size: auto 100px;
+    background-repeat: repeat-x;
+    background-position: center; */
+    
+    
+
+}
+#b2 {
+    background-color: cadetblue;
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+
+}
+#b3 {
+    color: red;
+}

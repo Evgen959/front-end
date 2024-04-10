@@ -17,7 +17,7 @@
 }
 main {
     background-color: chocolate;
-    min-height: calc(100vh - 300px);
+    min-height: calc(100vh - 300px);  /* для того чтоб текст не вылазил з пределы заданной облости */
     /*line-height: calc(100vh - 300px); расположение надписи  */
     margin: 10px 0px;
     
