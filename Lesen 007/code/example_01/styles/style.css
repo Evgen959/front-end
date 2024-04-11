@@ -1,0 +1,56 @@
+.box{
+    display: flex;
+    gap: 20px;
+    justify-content:space-between;
+    font-family: Calibri;
+}
+.b1 {     
+    background-image: url(../images/f1.webp);
+}
+.b2 {
+    background-image: url(../images/f2.webp);
+}
+.b3 {
+    background-image: url(../images/f3.webp);
+}
+.b4 {    
+    position: relative;
+    width: 33%;
+    min-width: 150px;
+    max-width: 200px;
+    height: 50vw;
+    min-height: 210px;
+    max-height: 280px;
+    background-size: cover;
+    border-radius: 4px;
+}
+.y-block {
+    display: flex;
+    width: 50px;
+    background-color: yellow;
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    justify-content: center;
+    border-radius: 2px;
+}
+h2 {
+    margin: 10px 0;
+    color: white; 
+}
+h4 {
+    margin: 10px 0;
+    color: yellow;
+    text-transform: uppercase; /* весь текст заглавными буквами */
+}
+h5 {
+    margin: 10px 0;
+    color: white;
+}
+.text {
+    position: absolute;
+    bottom: 0;
+    background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.991));
+    padding: 5px;
+    
+}

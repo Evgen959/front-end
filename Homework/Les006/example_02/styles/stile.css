@@ -1,9 +1,10 @@
-*/ {
+* {
     margin: 0;
     padding: 0;
     
 }
 .b1 {
+    margin: 10px;
     border-radius: 5px;
     text-align: center;
     
@@ -12,9 +13,14 @@
     min-height: calc(100vh - 190px - 50px);
 
 }
+.b3 {
+    border-radius: 5px;
+    text-align: center;
+}
 
 .box {
     display: flex;
+    gap: 10px;
 }
     
 .box1 {
@@ -30,32 +36,38 @@ header {
     background-color: rgb(90, 188, 245);
     height: 80px;
     line-height: 80px;
-    margin: 10px;
-
+    
 }
 nav {
     background-color: rgb(232, 160, 221);
     height: 30px;
     line-height: 30px;
-    margin: 10px;
+    
 }
 footer {
     background-color: rgb(159, 243, 229);
     height: 80px;
     line-height: 80px;
-    margin: 10px;
+    
 }
-section {
-    margin: 0, 5px, 10px, 10px;
+section {   
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10px; 
     background-color: rgb(237, 237, 154);
-    height: 60%;
+    height: 60%;    
 }
-article{
-    margin: 0, 5px, 0, 10px;
+article{  
+    display: flex;
+    align-items: center;
+    justify-content: center;  
     background-color: rgb(186, 137, 233);
-    height: 40%;
+    height: calc(40% - 10px);
 }
 aside {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     background-color: rgb(238, 177, 133);
-    margin: 0, 5px, 10px, 10px;
 }
